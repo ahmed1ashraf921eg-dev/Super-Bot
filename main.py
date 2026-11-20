@@ -20,7 +20,7 @@ async def main() -> None:
 
     if not BOT_TOKEN or BOT_TOKEN == "PUT_YOUR_BOT_TOKEN_HERE":
         raise RuntimeError(
-            "BOT_TOKEN غير مضبوط. أضف قيمة BOT_TOKEN في متغيرات البيئة (Environment Variables) على Koyeb."
+            "BOT_TOKEN غير مضبوط. أضف قيمة BOT_TOKEN في متغيرات البيئة (Environment Variables) على pella."
         )
 
     # تهيئة قاعدة بيانات SQLite وإنشاء الجداول والإعدادات الافتراضية
